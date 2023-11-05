@@ -12,6 +12,7 @@ for name in sorted(names):  #sorted = triee les element dans la list en ordre al
 for i in range(len(names)):
     with open("names.txt","a") as file :
          file.write(f"hello,{names[i]}\n")
+         
 # how to read a file 
 
    
