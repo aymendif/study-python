@@ -10,8 +10,8 @@ for name in sorted(names):  #sorted = triee les element dans la list en ordre al
 #file.close()
 #for better code and to close the file automaticly is better to use this code 
 for i in range(len(names)):
-    with open("names.txt","a") as file :  # a for append to the file 
-         file.write(f"hello,{names[i]}\n")
+    with open("names.txt","a") as file :  # a for append to the file  w tktib fou9 ktiba
+         file.write(f"hello {names[i]}\n")
          
 # how to read a file 
 
